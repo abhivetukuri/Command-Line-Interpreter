@@ -6,10 +6,16 @@ This project is a custom Command Line Interpreter (CLI) built using C++. It is d
 
 ## Features
 
-* Feature 1: Description of feature 1
-* Feature 2: Description of feature 2
-* Feature 3: Description of feature 3
-* ...
+The CLI supports the following commands:
+
+* `quit`: Exit the CLI
+* `remove <file_name>`: Removes the specified file
+* `rename <old_name> <new_name>`: Renames the specified file or folder
+* `rmdir <directory_name>`: Removes the specified directory (assumes the directory is empty)
+* `echo "<data>" <optional_file_name>`: Writes the specified data to the specified file, or prints it on the screen if no file is specified
+* `out -l <file_name_1> <file_name_2> <file_name_3>`: Prints the contents of the specified files one by one on the screen, asking the user to press a key to continue after each file (or each line if `-l` is specified)
+* `zip <destination> <file_name>`: Zips the specified file or folder
+* `unzip <file_name>`: Unzips the specified zipped file
 
 ## Installation
 
@@ -34,15 +40,6 @@ To install and run this CLI, follow these steps:
     ```bash
     ./cli.out
     ```
-
-## Usage
-
-Here's how to use the CLI:
-
-* Command 1: Description of command 1
-* Command 2: Description of command 2
-* Command 3: Description of command 3
-* ...
 
 ## Contributing
 
