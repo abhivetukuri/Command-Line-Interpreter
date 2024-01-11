@@ -41,14 +41,3 @@ To install and run this CLI, follow these steps:
     ./cli.out
     ```
 
-## Contributing
-
-Contributions are welcome! Please read the [contributing guidelines](link-to-your-contributing-guidelines) first.
-
-## License
-
-This project is licensed under the terms of the [MIT License](link-to-your-license).
-
-## Contact
-
-If you have any questions, feel free to reach out to me at your-email@example.com.
